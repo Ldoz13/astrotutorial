@@ -88,3 +88,7 @@ html {
   .dark .nav-links a {
     color: #fff;
   }
+  img {
+pointer-events: none;
+  }
+  
