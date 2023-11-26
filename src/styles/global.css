@@ -30,10 +30,11 @@ html {
   
   .hamburger .line {
     display: block;
-    width: 40px;
-    height: 5px;
-    margin-bottom: 10px;
+    width: 36px;
+    height: 4px;
+    margin-bottom: 6px;
     background-color: #ff9776;
+    border-radius: 2px;
   }
   .nav-links {
     width: 100%;
@@ -51,12 +52,13 @@ html {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform:initial;
   }
   
   .nav-links a:hover,
   .nav-links a:focus {
     background-color: #ff9776;
+    border-radius: 5px;
   }
   /* This will make menu inline for small devices */
   .expanded {
@@ -94,5 +96,14 @@ html {
   img {
 pointer-events: none;
 border-radius: 3%;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:visited{
+    color: black;
+  }
+  html.dark ul a:visited{
+    color: rgb(255, 255, 255);
   }
   
