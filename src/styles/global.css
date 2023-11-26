@@ -93,5 +93,6 @@ html {
   }
   img {
 pointer-events: none;
+border-radius: 3%;
   }
   
