@@ -83,7 +83,8 @@ html {
   }
 
   html.dark {
-    background-color: #0d0950;
+    
+    background: rgba(41,35,59,1);
     color: #fff;
   }
   
